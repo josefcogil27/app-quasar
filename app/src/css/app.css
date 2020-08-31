@@ -1,0 +1,63 @@
+/* app global css */
+*{
+    font-family: confor;
+}
+
+body{
+    background: #f5f5f5;
+    overflow: hidden;
+  }
+  .btn{
+    position: absolute;
+    top: 15%;
+  }
+  .title{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #777;
+    padding: 1rem 0 2rem 0;
+    font-size: 1.4rem;
+  }
+  .fs{
+    font-size: .8rem;
+  }
+  h6{
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+  .list-item{
+    margin: 0rem 1rem 1.5rem 0rem;
+    font-size: .8rem;
+  }
+  .product-container{
+    width: 100vw;
+    padding: 2rem;
+  }
+  .p-info{
+    width: 80%;
+  }
+  .img{
+    float: left;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+  }
+  .close{
+    margin-top: 3rem;
+    display: flex;
+    margin: auto;
+  }
+  .replay{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    bottom: 1rem;
+    left: 50%;
+  }
+
+@font-face{
+    font-family: confor;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
